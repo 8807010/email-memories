@@ -47,6 +47,77 @@
 			color: #5E6B89;
 			font-weight: 400;
 		}
+
+		.title-td h1 {
+			font-weight: 700;
+			font-size: 24px;
+			line-height: 140%;
+			text-align: center;
+			letter-spacing: -0.04em;
+			color: #232C41;
+			margin: 0;
+		}
+
+		.text-td p {
+			font-weight: 400;
+			font-size: 14px;
+			line-height: 180%;
+			text-align: center;
+			letter-spacing: -0.04em;
+			color: #232C41;
+			max-width: 518px;
+			width: 100%;
+			margin: 0;
+		}
+
+		.btn-link a {
+			text-decoration: none !important;
+		}
+
+		.btn-link a,
+		.btn-link span {
+			font-weight: 700;
+			font-size: 13px;
+			line-height: 100%;
+			text-align: center;
+			letter-spacing: -0.01em;
+			text-transform: uppercase;
+			color: #FFFFFF;
+		}
+
+		.text-item p {
+			font-weight: 400;
+			font-size: 14px;
+			line-height: 160%;
+			text-align: center;
+			letter-spacing: -0.04em;
+			color: #232C41;
+			
+		}
+
+		.text-item {
+			padding-top: 18px;
+			padding-bottom: 44px;
+			margin: 0;
+
+		}
+
+		.line hr {
+			margin: 0;
+			width: 100%;
+		}
+
+		.item img {
+			margin: 0;
+		}
+		
+		@media (max-width: 500px) {
+			.item {
+				display: block;
+			}
+		}
+
+		
 	</style>
 </head>
 
@@ -66,10 +137,10 @@
 									<td class="header-td" bgcolor="#E9ECF0" style="padding-top:14px; padding-bottom:14px;">
 										<table cellspacing="0" cellpadding="0" width="100%">
 											<tr>
-												<td class="logo" align="left">
-													<img src="./images/crello@x2.png" alt="CRELLO" width="97"/>
+												<td bgcolor="#E9ECF0" class="logo" align="left">
+													<img src="https://cdn-thumbs.imagevenue.com/41/fe/47/ME139BDG_t.png" alt="CRELLO" width="97"/>
 												</td>
-												<td class="link" align="right">
+												<td bgcolor="#E9ECF0" class="link" align="right">
 													<a href="#" style="font-family: Arial, Helvetica, sans-serif, 'Open Sans';">View in browser</a>
 												</td>
 											</tr>
@@ -77,13 +148,102 @@
 									</td>
 								</tr>
 								<tr>
-									<td>
-										Content
+									<td class="content-td" bgcolor="#E9ECF0">
+										<table cellspacing="0" cellpadding="0" width="100%">
+											<tr>
+												<td class="banner-td" bgcolor="#8F8EB8">
+													<img src="https://cdn-thumbs.imagevenue.com/9c/d6/53/ME139BDR_t.png" width="100%" height="auto" style="min-height: 116px; max-height: 220px;" alt="main-img" />
+												</td>
+											</tr>
+											<tr>
+												<td class="title-td" bgcolor="#ffffff" style="padding: 18px 0;">
+													<h1 style="font-family: Arial, Helvetica, sans-serif, 'Open Sans';">150+ new design elements.<br/> Free and awesome!</h1>
+												</td>
+											</tr>
+											<tr>
+												<td class="text-td" bgcolor="#ffffff" align="center" style="padding: 0 5px 26px;">
+													<p style="font-family: Arial, Helvetica, sans-serif, 'Open Sans';">
+														Good news for everyone! <br/> We’re happy to announce the release of a new feature called Text Badges. They are unique text elements designed for different kinds of posts, ads, announcements. You can find more than a hundred badges in the Text menu
+													</p>
+												</td>
+											</tr>
+											<tr>
+												<td class="btn-link" align="center" bgcolor="#ffffff" >
+													<table cellspacing="0" cellpadding="0" width= "148">
+														<tr>
+															<td class="btn-link" style="color: #ffffff; background-color: #3EA4ED; padding: 16px 28px; border-radius: 4px;">
+																<a href="#">
+																	<span style="color: #ffffff; font-family: Arial, Helvetica, sans-serif">check&nbsp;it&nbsp;out</span>
+																</a>
+															</td>
+														</tr>
+													</table>
+												</td>
+											</tr>
+											<tr>
+												<td bgcolor="#ffffff" class="line" width="518" height="1" align="center" color="#D2D2D2" style="padding: 48px 36px 28px 36px">
+													<hr>
+												</td>
+											</tr
+											<tr>
+												<td bgcolor="#ffffff" style="padding: 0 46px">
+													<table cellspacing="0" cellpadding="0" width="100%">
+														<tr>
+															<td class="item" align="center" style="font-family: Arial, Helvetica, sans-serif, 'Open Sans';">
+																<img src="https://cdn-thumbs.imagevenue.com/93/ca/10/ME139BDO_t.png" width="156" height="156" alt="item-1"/>
+																<p class="text-item">Place an accent on <br/> your text</p>
+															</td>
+															<td class="item" align="center" style="font-family: Arial, Helvetica, sans-serif, 'Open Sans';">
+																<img src="https://cdn-thumbs.imagevenue.com/9c/d2/2f/ME139BDP_t.png" width="156" height="156" alt="item-2"/>
+																<p class="text-item">Create neat <br/> announcements</p>
+															</td>
+															<td class="item" align="center" style="font-family: Arial, Helvetica, sans-serif, 'Open Sans';">
+																<img src="https://cdn-thumbs.imagevenue.com/89/3f/ca/ME139BDQ_t.png" width="156" height="156" alt="item-3"/>
+																<p class="text-item">Peraonalize your <br/> designs</p>
+															</td>
+														</tr>
+													</table>
+												</td>
+											</tr>
+											<tr>
+												<td class="btn-link" align="center" bgcolor="#ffffff" style="padding-bottom: 52px">
+													<table cellspacing="0" cellpadding="0" width= "174">
+														<tr>
+															<td class="btn-link" style="color: #ffffff; background-color: #3EA4ED; padding: 16px 28px; border-radius: 4px;">
+																<a href="#">
+																	<span style="color: #ffffff; font-family: Arial, Helvetica, sans-serif">start&nbsp;designing</span>
+																</a>
+															</td>
+														</tr>
+													</table>
+												</td>
+											</tr>
+										</table>
 									</td>
 								</tr>
 								<tr>
 									<td>
-										Footer
+										<table>
+											<tr>
+												<td>
+
+												</td>
+											</tr>
+											<tr>
+												<td>
+													
+												</td>
+												<td>
+													
+												</td>
+												<td>
+													
+												</td>
+												<td>
+													
+												</td>
+											</tr>
+										</table>
 									</td>
 								</tr>
 							</table>
